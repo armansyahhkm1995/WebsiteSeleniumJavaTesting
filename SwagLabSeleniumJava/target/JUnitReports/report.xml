@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="18.78" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Swag Labs Checkout Step Two Functionality" name="Verify Checkout Step Two - Example #1.1" time="18.338">
+<system-out><![CDATA[
+Given User opens the browser Step Two Functionality.........................passed
+And User navigates to the Swag Labs URL Step Two Functionality..............passed
+When User enters standard_user and secret_sauce Step Two Functionality......passed
+And User clicks the login button Step Two Functionality.....................passed
+When User clicks the Add to Cart button on the inventory page Step Two Functionality.passed
+Then User should see the added product in the cart page with the corresponding details Step Two Functionality.passed
+When User clicks the cart icon on the inventory page Step Two Functionality.passed
+Then User will be redirected to the cart page Step Two Functionality........passed
+And User should see the details of the previously added product, including the product name, product description, and product price Step Two Functionality.passed
+When User clicks on the checkout button Step Two Functionality..............passed
+Then User should be redirected to the checkout page Step Two Functionality..passed
+And User fills the first name form Step Two Functionality...................passed
+And User fills the last name form  Step Two Functionality...................passed
+And User fills the postal code form Step Two Functionality..................passed
+And User clicks continue buttonStep Two Functionality.......................passed
+Then User will be redirected to the checkout overview page Step Two Functionality.passed
+And User should see the details of the previously added product but in checkout step two page, including the product name, product description, and product price Step Two Functionality.passed
+And User should see the details of the previously added product, including the payment information, shipping information, price total, and total Step Two Functionality.passed
+And User click on finish button Step Two Functionality......................passed
+Then User should see thank you for your order page Step Two Functionality...passed
+And User click back to home button Step Two Functionality...................passed
+]]></system-out>
+</testcase>
+</testsuite>
